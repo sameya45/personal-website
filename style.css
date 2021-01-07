@@ -1,0 +1,231 @@
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(17, 16, 16);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+
+.header1{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color:rgb(31, 31, 143);
+}
+.header2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+    color:tomato;    
+}
+
+p{
+ font-size: 25px;
+ margin-bottom: 70px;
+    
+}
+.top-section{
+    margin-bottom: 70px;
+}
+.working-project{
+    
+    background-color:rgb(197, 204, 236);
+    width: 100%;
+    float: left;
+    padding-left: 150px; 
+    padding-bottom: 300px;
+}
+
+.working-project h2{
+
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color:rgb(31, 31, 92);
+    margin-left: 560px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.part{
+    color: tomato;
+}
+
+.box-one{
+    
+    width: 400px;
+    float: left;
+    border-radius: 24px;
+    padding: 10px 10px;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: 10px 10px 40px gray;
+}
+.box-one-bg{
+    background-color: rgb(208, 238, 250);
+    
+    border-radius: 24px;
+    padding: 10px 10px;
+    }
+.box-one img{
+    height: 250px;
+    width: 350px;
+    padding: 3px 7px;
+    border-radius:30px;
+
+}
+
+.span-one{  
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(46, 78, 104);
+    padding-top: 20px;
+    text-align: center;
+}
+.span-two{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color:rgb(46, 78, 104);
+    text-align: justify;
+    padding: 20px;
+}
+
+
+
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+
+}
+
+.half-width h1 {
+     font-size: 50px;
+     margin-top: 120px;
+}
+
+
+.half-width p {
+    text-align: justify;
+ 
+}
+.dream-area{
+ background-image: url("images/dream-bg.png");
+ background-repeat: no-repeat;
+ background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius:20px;
+    height: 80%;
+    background-color: white;
+    
+   
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+   
+   border-image: linear-gradient(180deg, lightSalmon , tomato);
+   border-image-slice: 1;
+   height:400px;
+   width: 400px;
+}
+.working-inquiry {
+   
+    float:left;
+    margin-top: 100px;
+    margin-left: 210px;
+    border: solid 1px red;
+    background-image: url('images/profile 3.png');
+    background-repeat: no-repeat;
+    height: 320px;
+    border-radius: 90px;
+    width: 80%;
+    
+}
+.working-inquiry img{
+    height: 320px;
+    width: 300px;
+
+
+}
+.working-text{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    float: left;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.anchor-link{
+    float: right;
+    margin-top:108px;
+    margin-right: 250px;
+    margin-left:100px;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 35px 50px;
+}
+.anchor-link a{
+    color: white;text-decoration: none;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    padding: 35px 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    
+}
+footer{
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.footer-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: rgb(128, 133, 138);
+    font-weight: 100px;
+    
+}
+.footer-mail{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color:rgb(46, 78, 104);
+    margin-top: 60px;
+
+}
+.footer-img img{
+     width: 55px; 
+     margin-top: 30px;
+     margin-bottom: 20px;
+}
